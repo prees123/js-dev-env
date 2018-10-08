@@ -1,7 +1,6 @@
 {
     "name": "javascript-development-environment",
     "version": "1.0.0",
-    "description": "JavaScript development environment Pluralsight course by Cory House",
     "scripts": {
         "prestart": "babel-node buildScripts/startMessage.js",
         "start": "npm-run-all --parallel security-check open:src lint:watch",
@@ -12,8 +11,7 @@
         "localtunnel": "lt --port 3000",
         "share": "npm-run-all --parallel open:src localtunnel"
     },
-    "author": "Cory House",
-    "license": "MIT",
+    "author": "Preejith",
     "dependencies": {},
     "devDependencies": {
         "babel-cli": "6.16.0",
